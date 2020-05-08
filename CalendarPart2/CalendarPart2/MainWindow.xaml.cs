@@ -337,6 +337,8 @@ namespace CalendarPart2
             Label numberOfTheDay = numbersOfDays[dayIndex];
             numberOfTheDay.Content = "";
             StackPanel outOfCalendarGrid = cells[dayIndex];
+            outOfCalendarGrid.Children.Clear();
+
             outOfCalendarGrid.Opacity = 0.3;
         }
         public DateTime GetDateValue()
@@ -358,6 +360,7 @@ namespace CalendarPart2
                 Label numberOfDay = numbersOfDays[dayIndex];
                 numberOfDay.Content = "";
                 StackPanel outOfCalendarGrid = cells[dayIndex];
+                outOfCalendarGrid.Children.Clear();
                 outOfCalendarGrid.Opacity = 0.3;
             }
         }
