@@ -1,0 +1,16 @@
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\bin\Debug\CalendarPart2.exe.config
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\bin\Debug\CalendarPart2.exe
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\bin\Debug\CalendarPart2.pdb
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2.csprojAssemblyReference.cache
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\MainWindow.g.cs
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\Week.g.cs
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\App.g.cs
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2_MarkupCompile.cache
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2_MarkupCompile.lref
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\MainWindow.baml
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\Week.baml
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2.g.resources
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2.Properties.Resources.resources
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2.csproj.GenerateResource.cache
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2.exe
+C:\Users\Iñaki\Desktop\CalendarPart2\CalendarPart2\obj\Debug\CalendarPart2.pdb

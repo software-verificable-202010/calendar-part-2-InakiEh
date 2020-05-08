@@ -1,0 +1,185 @@
+﻿<Window x:Class="CalendarPart2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalendarPart2"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="675" Width="950">
+    <Grid x:Name="applicationGrid" Height="680" Width="950">
+        <Label x:Name="month" Content="" HorizontalAlignment="Left" Margin="20,13,0,0" VerticalAlignment="Top" Height="60" Width="207" FontSize="35" Background="#FF3348D1"/>
+        <Label x:Name="year" Content="" HorizontalAlignment="Left" Margin="199,13,0,0" VerticalAlignment="Top" Height="60" Width="85" FontSize="35" Background="#FF3348D1" SnapsToDevicePixels="True"/>
+        <Label Content="Monday" HorizontalAlignment="Left" Margin="29,84,0,0" VerticalAlignment="Top" Height="33" Width="58"/>
+        <Label Content="Thuesday" HorizontalAlignment="Left" Margin="130,83,0,0" VerticalAlignment="Top" Height="33" Width="62"/>
+        <Label Content="Wednesday" HorizontalAlignment="Left" Margin="227,84,0,0" VerticalAlignment="Top" Height="33" Width="72"/>
+        <Label Content="Thursday" HorizontalAlignment="Left" Margin="342,84,0,0" VerticalAlignment="Top" Height="33" Width="59"/>
+        <Label Content="Friday" HorizontalAlignment="Left" Margin="456,82,0,0" VerticalAlignment="Top" Height="34" Width="44"/>
+        <Label Content="Saturday" HorizontalAlignment="Left" Margin="551,82,0,0" VerticalAlignment="Top" Height="34" Width="58"/>
+        <Label Content="Sunday" HorizontalAlignment="Left" Margin="658,82,0,0" VerticalAlignment="Top" Height="33" Width="52"/>
+        <Grid x:Name="calendarGrid" Margin="0,117,216,61" ShowGridLines="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel x:Name="dateSquare1" Grid.Column="0" Grid.Row="0" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber1" Content="" Width="95" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare2" Grid.Column="1" Grid.Row="0" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber2" Content="" Width="101" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare3" Grid.Column="2" Grid.Row="0" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber3" Content="" Width="102" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare4" Grid.Column="3" Grid.Row="0" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber4" Content="" Width="104" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare5" Grid.Column="4" Grid.Row="0" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber5" Content="" Width="105" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare6" Grid.Column="5" Grid.Row="0" Background="LightSkyBlue">
+                <Label x:Name="dateNumber6" Content="" Width="102" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare7" Grid.Column="6" Grid.Row="0" Background="LightSkyBlue">
+                <Label x:Name="dateNumber7" Content="" Width="100" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare8" Grid.Column="0" Grid.Row="1" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber8" Content="" Width="104" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare9" Grid.Column="1" Grid.Row="1" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber9" Content="" Width="105" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare10" Grid.Column="2" Grid.Row="1" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber10" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare11" Grid.Column="3" Grid.Row="1" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber11" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare12" Grid.Column="4" Grid.Row="1" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber12" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare13" Grid.Column="5" Grid.Row="1" Background="LightSkyBlue">
+                <Label x:Name="dateNumber13" Content="" Width="105" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare14" Grid.Column="6" Grid.Row="1" Background="LightSkyBlue">
+                <Label x:Name="dateNumber14" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare15" Grid.Column="0" Grid.Row="2" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber15" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare16" Grid.Column="1" Grid.Row="2" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber16" Content="" Width="104" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare17" Grid.Column="2" Grid.Row="2" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber17" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare18" Grid.Column="3" Grid.Row="2" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber18" Content="" Width="102" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare19" Grid.Column="4" Grid.Row="2" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber19" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare20" Grid.Column="5" Grid.Row="2" Background="LightSkyBlue">
+                <Label x:Name="dateNumber20" Content="" Width="105" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare21" Grid.Column="6" Grid.Row="2" Background="LightSkyBlue">
+                <Label x:Name="dateNumber21" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare22" Grid.Column="0" Grid.Row="3" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber22" Content="" Width="101" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare23" Grid.Column="1" Grid.Row="3" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber23" Content="" Width="100" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare24" Grid.Column="2" Grid.Row="3" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber24" Content="" Width="102" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare25" Grid.Column="3" Grid.Row="3" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber25" Content="" Width="102" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare26" Grid.Column="4" Grid.Row="3" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber26" Content="" Width="100" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare27" Grid.Column="5" Grid.Row="3" Background="LightSkyBlue">
+                <Label x:Name="dateNumber27" Content="" Width="100" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare28" Grid.Column="6" Grid.Row="3" Background="LightSkyBlue">
+                <Label x:Name="dateNumber28" Content="" Width="101" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare29" Grid.Column="0" Grid.Row="4" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber29" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare30" Grid.Column="1" Grid.Row="4" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber30" Content="" Width="103" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare31" Grid.Column="2" Grid.Row="4" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber31" Content="" Width="101" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare32" Grid.Column="3" Grid.Row="4" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber32" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare33" Grid.Column="4" Grid.Row="4" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber33" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare34" Grid.Column="5" Grid.Row="4" Background="LightSkyBlue">
+                <Label x:Name="dateNumber34" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare35" Grid.Column="6" Grid.Row="4" Background="LightSkyBlue">
+                <Label x:Name="dateNumber35" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare36" Grid.Column="0" Grid.Row="5" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber36" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare37" Grid.Column="1" Grid.Row="5" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber37" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare38" Grid.Column="2" Grid.Row="5" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber38" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare39" Grid.Column="3" Grid.Row="5" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber39" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare40" Grid.Column="4" Grid.Row="5" Background="LightGray" Opacity="0">
+                <Label x:Name="dateNumber40" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare41" Grid.Column="5" Grid.Row="5" Background="LightSkyBlue">
+                <Label x:Name="dateNumber41" Content="" Width="99" Height="25"/>
+            </StackPanel>
+            <StackPanel x:Name="dateSquare42" Grid.Column="6" Grid.Row="5" Background="LightSkyBlue">
+                <Label x:Name="dateNumber42" Content="" Width="99" Height="25"/>
+            </StackPanel>
+        </Grid>
+
+        <ComboBox x:Name="monthSelector" HorizontalAlignment="Left" Margin="783,136,0,0" VerticalAlignment="Top" Width="120" />
+        <ComboBox x:Name="yearSelector" HorizontalAlignment="Left" Margin="783,184,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Select Date" HorizontalAlignment="Left" Margin="803,228,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="SelectDateClick"/>
+        <Label Content="Month:" HorizontalAlignment="Left" Margin="777,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="Year:" HorizontalAlignment="Left" Margin="779,158,0,0" VerticalAlignment="Top"/>
+        <Button Content="Week" HorizontalAlignment="Left" Margin="792,43,0,0" VerticalAlignment="Top" Height="30" Width="82" Click="WeekClick"/>
+        <Button Content="Set Appointment" HorizontalAlignment="Left" Margin="772,587,0,0" VerticalAlignment="Top" Height="32" Width="140" Click="CreateAppointment"/>
+        <TextBox x:Name="titleBox" HorizontalAlignment="Left" Margin="779,293,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="descriptionBox" HorizontalAlignment="Left" Margin="779,329,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Calendar x:Name="appointmentDateSelector" HorizontalAlignment="Left" Margin="740,361,0,0" VerticalAlignment="Top" Height="167" Width="202"/>
+        <ComboBox x:Name="fromHourSelector" HorizontalAlignment="Left" Margin="770,554,0,0" VerticalAlignment="Top" Width="63"/>
+        <ComboBox x:Name="toHourSelector" HorizontalAlignment="Left" Margin="854,554,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="From" HorizontalAlignment="Left" Margin="765,531,0,0" VerticalAlignment="Top"/>
+        <Label Content="To" HorizontalAlignment="Left" Margin="848,531,0,0" VerticalAlignment="Top"/>
+        <Label Content="Title" HorizontalAlignment="Left" Margin="773,272,0,0" VerticalAlignment="Top"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="773,308,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
